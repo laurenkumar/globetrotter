@@ -6,10 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Billboard from '../components/billboard'
 import Gallery from '../components/gallery'
-<<<<<<< HEAD
 import { POIGlobe } from '../globekit/examples/pointsofinterest/js/POIGlobe.js';
-=======
->>>>>>> 957710a205fafb77008ef2f26e76bbf4140d0590
 
 const HomeWrapper = styled.div`
   padding-top: 0.5rem;
@@ -30,12 +27,9 @@ const HomeWrapper = styled.div`
 
 const IndexPage = ({ data }) => {
   const { edges: homeImgData } = data.HomeImgs
-<<<<<<< HEAD
   const canvas = document.getElementById('globekit-canvas')
   const calloutContainer = document.getElementById('callout-container')
   window.globe = new POIGlobe(canvas, calloutContainer)
-=======
->>>>>>> 957710a205fafb77008ef2f26e76bbf4140d0590
 
   return (
     <Layout>
@@ -45,13 +39,10 @@ const IndexPage = ({ data }) => {
 
       <HomeWrapper>
         <Gallery homeImgs={homeImgData} />
-<<<<<<< HEAD
         <div id="globekit-container">
           <canvas id="globekit-canvas"></canvas>
           <div id="callout-container"></div>
         </div>
-=======
->>>>>>> 957710a205fafb77008ef2f26e76bbf4140d0590
       </HomeWrapper>
     </Layout>
   )
