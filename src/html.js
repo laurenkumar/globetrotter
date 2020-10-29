@@ -12,9 +12,12 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+<<<<<<< HEAD
           <link rel="stylesheet" href="globekit/examples/pointsofinterest/css/globe.css">
           <link rel="stylesheet" href="globekit/examples/pointsofinterest/css/pin-callout.css">
           <link rel="stylesheet" href="globekit/examples/pointsofinterest/css/detail-callout.css">
+=======
+>>>>>>> 957710a205fafb77008ef2f26e76bbf4140d0590
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
